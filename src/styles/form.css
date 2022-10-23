@@ -6,12 +6,12 @@
 	/* background: var(--white); */
 }
 .form-style h1{
-	background: #43D1AF;
+	background: teal;
 	padding: 20px 0;
 	font-size: 140%;
 	font-weight: 300;
 	text-align: center;
-	color: #fff;
+	color: seashell;
 	margin: -16px -16px 16px -16px;
 }
 .form-style input[type="text"],
@@ -34,11 +34,11 @@
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	width: 100%;
-	background: #fff;
+	background: seashell;
 	margin-bottom: 4%;
-	border: 1px solid #ccc;
+	border: 1px solid snow;
 	padding: 3%;
-	color: #555;
+	color: gray;
 	font: 95% Arial, Helvetica, sans-serif;
 }
 .form-style input[type="text"]:focus,
@@ -52,9 +52,9 @@
 .form-style textarea:focus,
 .form-style select:focus
 {
-	box-shadow: 0 0 5px #43D1AF;
+	box-shadow: 0 0 5px teal;
 	padding: 3%;
-	border: 1px solid #43D1AF;
+	border: 1px solid teal;
 }
 
 .bttn {
@@ -64,7 +64,7 @@
     border: none;
     border-radius: 3px;
 	box-sizing: border-box;
-	box-shadow: 1px 1px 4px #DADADA;
+	box-shadow: 1px 1px 4px palegoldenrod;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	width: 100%;
