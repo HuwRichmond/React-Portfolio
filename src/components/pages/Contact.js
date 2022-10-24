@@ -2,6 +2,7 @@ import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import '../../styles/form.css';
 
+//import validation helpers
 import { validateEmail } from '../../utils/helpers';
 
 const ContactUs = () => {
@@ -10,6 +11,7 @@ const ContactUs = () => {
   const [message, setMessage] = useState();
   const [error, setError] = useState();
 
+  //function to handle input changes on contact form
   const handleInputChange = (event) => {
     const { target } = event;
     const inputType = target.name;
@@ -40,7 +42,7 @@ const ContactUs = () => {
 
     emailjs.sendForm('service_u5gwbp8', 'template_nts1yqk', form.current, 'f6dIrrX1fEOYc8AJF').then(
       () => {
-        setError('Message successfully sent!');
+        setError('message sent');
         window.location.reload(false);
       },
       () => {
@@ -74,11 +76,11 @@ const ContactUs = () => {
         <div className="content-headings">
           <h2 className="headings">Contact</h2>
           <p className="p">
-            I can be contacted via the Github or Linkedin links or you can Email me at{' '}
+            Email me at{' '}
             <span>
               <a href="mailto:huwlrichmond@gmail.com">huwlrichmond@gmail.com</a>
             </span>{' '}
-            or use the contact form on this page.
+            or use the mail feature below.
           </p>
         </div>
         <div className="form-style">

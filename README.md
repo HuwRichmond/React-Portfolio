@@ -4,21 +4,22 @@ The task was to create a portfolio using React.
 
 The application was deployed to GitHub Pages.
 
- ## Table of Contents  
+## Table of Contents
+
 [1. Description](#Description)  
 [2. Acceptance Criteria](#Acceptance-Criteria)  
 [3. Screenshot](#Screenshot)  
 [4. Installation](#Installation)  
 [5. Tests](#Tests)  
 [6. License](#License)  
-[7. URLs](#URLs)   
-[8. Contact](#Contact)  
+[7. URLs](#URLs)  
+[8. Contact](#Contact)
 
 ## Description
 
-* When the application starts, users will see a portfoilo page with samples of projects I have developed.
-* The page was made with React, meaning the page is made up of a number of different components and will load without refreshing the page.
-* The Node application was made using npm packages and gh-pages package was used to deploy the application.
+- When the application starts, users will see a portfoilo page with samples of projects I have developed.
+- The page was made with React, meaning the page is made up of a number of different components and will load without refreshing the page.
+- The Node application was made using npm packages and gh-pages package was used to deploy the application.
 
 ## User Story
 
@@ -63,25 +64,28 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 <img src="./assets/Screenshot.png">
 
 ## Installation
-  
+
 The deployed application can be viewed at the link. To use the application locally, clone the Github repository and enter the following terminal commands:
+
 ```
     - npm i
     - npm start
 ```
-The application can then be viewed locally on localhost:3001
 
-## Tests 
+The application can then be viewed locally on localhost:3000 through the browser.
+
+## Tests
 
     None
 
 ## License
-   
+
     None
 
 ## URLs
- * [github.com/HuwRichmond/React-Portfolio](https://github.com/HuwRichmond/React-Portfolio)
- * [https://young-reef-49269.herokuapp.com/](https://young-reef-49269.herokuapp.com/)
+
+- [github.com/HuwRichmond/React-Portfolio](https://github.com/HuwRichmond/React-Portfolio)
+- [https://young-reef-49269.herokuapp.com/](https://young-reef-49269.herokuapp.com/)
 
 ## Contact
 

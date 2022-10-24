@@ -24,8 +24,7 @@ export default function Portfolio() {
   const projects = [
     {
       title: 'Merchant Game',
-      description:
-        'This is a game made with MySQL and uses Handlebars.js as the template engine.',
+      description: 'This is a game made with MySQL and uses Handlebars.js as the template engine.',
       deployedURL: 'https://ascrivener-merchant-game.herokuapp.com',
       repoURL: 'https://github.com/Wombattree/MerchantGame',
       imageURL: merch
@@ -40,8 +39,7 @@ export default function Portfolio() {
     },
     {
       title: 'Text Editor',
-      description:
-        'This is a text editor that runs in the browser.',
+      description: 'This is a text editor that runs in the browser.',
       deployedURL: 'https://young-reef-49269.herokuapp.com/',
       repoURL: 'https://github.com/HuwRichmond/Progressive-Web-Applications-PWA-Text-Editor',
       imageURL: text
@@ -55,20 +53,18 @@ export default function Portfolio() {
     },
     {
       title: 'Note Taker',
-      description:
-        'This allows users to record, save and delete notes when using the application.',
+      description: 'This allows users to record, save and delete notes when using the application.',
       deployedURL: 'https://huw-richmond-note-taker.herokuapp.com/',
       repoURL: 'https://github.com/HuwRichmond/expressjs-note-taker',
       imageURL: note
     },
     {
       title: 'Weather App',
-      description:
-        'This allows users to view weather forecasts by the searched city.',
+      description: 'This allows users to view weather forecasts by the searched city.',
       deployedURL: 'https://huwrichmond.github.io/Weather_App/',
       repoURL: 'https://github.com/HuwRichmond/Weather_App',
       imageURL: weather
-    },
+    }
   ];
 
   return (
