@@ -10,7 +10,7 @@ import weather from '../../assets/images/weather.png';
 function Work() {
   return (
     <div className="content-headings">
-      <h2 className="headings">Work</h2>
+      <h2 className="headings">Portfolio</h2>
       <p className="p">
         Samples of some projects i have developed. Full repositories are on my Github page.
         <br></br>

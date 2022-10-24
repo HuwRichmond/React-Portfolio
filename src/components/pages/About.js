@@ -26,7 +26,7 @@ export default function About() {
         <h1 style={{ color: '#e76f51ff', fontWeight: 'bold', fontStyle: 'italic' }}>SKILLS</h1>
         <br></br>
         <br></br>
-        <h2 style={{ color: '#083c52' }}>Icons for languages</h2>
+        <h2 style={{ color: '#083c52' }}>languages</h2>
         <br></br>
         <br></br>
         <Tooltip title="HTML">
@@ -116,7 +116,7 @@ export default function About() {
               <li>Respect for others</li>
               <li>Social Justice Value</li>
               <li>Open mind</li>
-              <li>positive energy</li>
+              <li>Positive energy</li>
             </ul>
           </div>
         </div>

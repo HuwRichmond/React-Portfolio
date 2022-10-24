@@ -1,22 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap');
 
-/* Variables */
 :root {
-    --blue: #083c52;
-    --turquoise: #56acad;
-    --white: #fff;    
-    --maize: #e9c46aff;
-    --sandy: #f4a261ff;
-    --burnt: #e76f51ff;
+    --blue: #0b2a80;
+    --turquoise: #64afb1;
+    --white: rgb(255, 255, 255);    
+    --maize: rgb(219, 194, 130);
+    --sandy: rgb(223, 159, 106);
+    --burnt: rgb(255, 115, 0);
 }
 
-/* set content highlight color and background */
 ::selection {
     background-color: var(--turquoise);
     color: var(--white);
 }
 
-/* Universal Elements */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -27,14 +24,12 @@ html {
 	scroll-behavior: smooth;
 }
 
-/* Selector Elements */
 body {
     background-color: var(--white);
     background-image: url(../../src/assets/images/back.jpg);
     background-repeat: repeat;
-    /* background-size: cover; */
     background-position: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Arial, sans-serif;
     overflow-y: auto;
     overflow-x: hidden;
 }
@@ -57,7 +52,6 @@ main {
 }
 
 footer {
-    /* background: var(--blue); */
     color: var(--blue);
     text-align: center;
     padding: 5px;
@@ -92,9 +86,8 @@ footer p {
 
 /* Main class Elements */
 .headings {
-    color: #74a391;
-    font-style: italic;
-    font-family: serif;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
     display: block;
     font-size: 2rem;
     text-align: left;
@@ -111,7 +104,7 @@ h1.headings {
     padding-top: 15px;
     margin-right: 50px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
 
@@ -190,12 +183,6 @@ h1.headings {
     top: 0vw;
     margin-bottom: 2rem;
 
-    /* width: 10rem;
-    height: 10rem;
-    object-fit: cover;
-    border-radius: 50%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin: 1rem 0; */
 }
 
 .p {
@@ -204,7 +191,7 @@ h1.headings {
     padding-left: 4rem;
     padding-right: 3rem;
     text-align: justify;
-    font-family: 'Raleway', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 2rem;
 }
 
@@ -241,7 +228,6 @@ h1.headings {
 	display: flex;
 	align-items: flex-end;
 	transition: 0.4s ease-out;
-	/* box-shadow: 0px 7px 10px rgba(black, 0.5); */
 }
 	
 	.card:hover {
@@ -285,7 +271,7 @@ h1.headings {
 	.card .info {
         position: relative;
 		z-index: 3;
-		color: white;
+		color: snow;
 		opacity: 0;
 		transform: translateY(30px);
 		transition: 0.5s;
@@ -293,9 +279,8 @@ h1.headings {
 		
 		.card .info h1 {
             margin: 0px;
-            color: #74a391;
-            font-style: italic;
-            font-family: serif;
+            color: #608577;
+            font-family: Arial, Helvetica, sans-serif;
             display: inline-block;
             padding-left: 10px;
         }
@@ -309,7 +294,7 @@ h1.headings {
             padding-left: 1rem;
             padding-right: 3rem;
             text-align: left;
-            font-family: 'Raleway', sans-serif;
+            font-family: Arial, Helvetica, sans-serif;
         }
 			
 		.card .info button {
@@ -348,7 +333,6 @@ h1.headings {
 .content-headings {
     flex: 1;
     text-align: right;
-    /* padding-top: 20px; */
 }
 
 .nav-contact {
@@ -357,21 +341,15 @@ h1.headings {
     flex-wrap: wrap;
     position: relative;
     align-items: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     justify-content: center;
     padding-left: 2rem;
     padding-right: 3rem;
 }
 
 .nav-link {
-    /* position: absolute; */
     margin-right: 1rem;
 }
-
-/* .nav-link li {
-    display: inline-flex;
-    padding: 0 3vh;
-} */
 
 .nav-link a {
     color: var(--burnt);
@@ -388,17 +366,16 @@ h1.headings {
 }
 
   .error-text {
-    color: red;
+    color: tomato;
     font-weight: 600;
     line-height: 1.5rem;
     text-align: center;
-    font-family: 'Raleway', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin-top: 2rem;
   }
 
   .resume-container {
     display: flex;
-    /* flex-direction: row; */
     justify-content: center;
   }
 
@@ -416,7 +393,7 @@ h1.headings {
     border: none;
     border-radius: 3px;
 	box-sizing: border-box;
-	box-shadow: 1px 1px 4px #DADADA;
+	box-shadow: 1px 1px 4px #ffffff;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	padding: 10px;
