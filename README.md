@@ -85,7 +85,7 @@ The application can then be viewed locally on localhost:3000 through the browser
 ## URLs
 
 - [github.com/HuwRichmond/React-Portfolio](https://github.com/HuwRichmond/React-Portfolio)
-- [huwrichmond.github.io/React-Portfolio](huwrichmond.github.io/React-Portfolio)
+- [[huwrichmond.github.io/React-Portfolio](https://huwrichmond.github.io/React-Portfolio/)]([huwrichmond.github.io/React-Portfolio](https://huwrichmond.github.io/React-Portfolio/))
 
 ## Contact
 
