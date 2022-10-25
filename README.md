@@ -61,7 +61,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Screenshot
 
-<img src="./assets/Screenshot.png">
+![Screenshot of deployed application on browser".](./src/assets/images/Screenshot.png)
 
 ## Installation
 

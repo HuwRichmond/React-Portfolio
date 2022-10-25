@@ -1,8 +1,6 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import '../../styles/form.css';
-
-//import validation helpers
 import { validateEmail } from '../../utils/helpers';
 
 const ContactUs = () => {
@@ -11,7 +9,6 @@ const ContactUs = () => {
   const [message, setMessage] = useState();
   const [error, setError] = useState();
 
-  //function to handle input changes on contact form
   const handleInputChange = (event) => {
     const { target } = event;
     const inputType = target.name;
@@ -26,7 +23,7 @@ const ContactUs = () => {
     }
   };
 
-  //https://developer.mozilla.org/en-US/docs/Web/API/Element/blur_event
+  //
   const handleEmptyField = (event) => {
     if (event.target.value.length === 0) {
       setError(`${event.target.name} field is required.`);
@@ -50,26 +47,12 @@ const ContactUs = () => {
       }
     );
 
-    //error message handling
     if (!validateEmail(email)) {
       setError('Invalid email');
       return;
     }
-
-    // //error message handling
-    // if (!validateMessage(message && name)) {
-    //   setError('Please enter your name and a message');
-    //   return;
-    // }
-
-    //after form submission, set the name, email message and error message to be blank
-    // setName('');
-    // setEmail('');
-    // setMessage('');
-    // setError('');
   };
 
-  //return html content
   return (
     <section>
       <div className="container">
@@ -129,7 +112,7 @@ const ContactUs = () => {
                 id="example-message"></textarea>
             </label>
             <div>
-              {/* <label><span> </span><input type="submit" className="bttn" onClick={sendEmail} value="Submit" /></label> */}
+              {/**/}
               <button className="bttn" onClick={sendEmail}>
                 Submit
               </button>

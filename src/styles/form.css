@@ -3,7 +3,6 @@
 	max-width: 400px;
 	margin: 10px auto;
 	padding: 16px;
-	/* background: var(--white); */
 }
 .form-style h1{
 	background: #43D1AF;
@@ -59,7 +58,6 @@
 
 .bttn {
     height: 42px;
-    /* width: 6rem; */
     outline: none;
     border: none;
     border-radius: 3px;
