@@ -5,7 +5,7 @@ import what from '../../assets/images/what.png';
 import text from '../../assets/images/text.png';
 import work from '../../assets/images/work.png';
 import note from '../../assets/images/note.png';
-import weather from '../../assets/images/weather.png';
+import booking from '../../assets/images/booking.png';
 
 function Work() {
   return (
@@ -59,11 +59,11 @@ export default function Portfolio() {
       imageURL: note
     },
     {
-      title: 'Weather App',
-      description: 'This allows users to view weather forecasts by the searched city.',
-      deployedURL: 'https://huwrichmond.github.io/Weather_App/',
-      repoURL: 'https://github.com/HuwRichmond/Weather_App',
-      imageURL: weather
+      title: 'Booking App',
+      description: 'This is a booking app for a fictional doggy day care centre.',
+      deployedURL: 'https://afternoon-caverns-61979.herokuapp.com/',
+      repoURL: 'https://github.com/HuwRichmond/Booking-App',
+      imageURL: booking
     }
   ];
 
