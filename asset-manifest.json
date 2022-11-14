@@ -1,29 +1,29 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.77c213cf.css",
-    "main.js": "/React-Portfolio/static/js/main.dda5be9a.js",
-    "static/css/409.2bc54dbc.chunk.css": "/React-Portfolio/static/css/409.2bc54dbc.chunk.css",
-    "static/js/409.021ea4e9.chunk.js": "/React-Portfolio/static/js/409.021ea4e9.chunk.js",
+    "main.js": "/React-Portfolio/static/js/main.f939f7e1.js",
+    "static/css/357.0c79fb7d.chunk.css": "/React-Portfolio/static/css/357.0c79fb7d.chunk.css",
+    "static/js/357.49822182.chunk.js": "/React-Portfolio/static/js/357.49822182.chunk.js",
     "static/js/787.a2cb61a6.chunk.js": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/js/658.d4d3dce5.chunk.js": "/React-Portfolio/static/js/658.d4d3dce5.chunk.js",
     "static/media/merch.png": "/React-Portfolio/static/media/merch.9b9ad85b6fbdcb334ae8.png",
     "static/media/what.png": "/React-Portfolio/static/media/what.864bf229618e00acb403.png",
+    "static/media/booking.png": "/React-Portfolio/static/media/booking.058033571abc7822f307.png",
     "static/media/portfolio_pic.png": "/React-Portfolio/static/media/portfolio_pic.ec7a03e4974dcce06526.png",
-    "static/media/weather.png": "/React-Portfolio/static/media/weather.d4d7b81b9557601351e1.png",
     "static/media/Huw_CV.pdf": "/React-Portfolio/static/media/Huw_CV.b7f961fa901c8c781d7e.pdf",
     "static/media/work.png": "/React-Portfolio/static/media/work.22274bd45b467ed08fbe.png",
     "static/media/text.png": "/React-Portfolio/static/media/text.5d9c3e3f16459863a92e.png",
     "static/media/note.png": "/React-Portfolio/static/media/note.ccd4893ff11590b96f81.png",
     "index.html": "/React-Portfolio/index.html",
     "main.77c213cf.css.map": "/React-Portfolio/static/css/main.77c213cf.css.map",
-    "main.dda5be9a.js.map": "/React-Portfolio/static/js/main.dda5be9a.js.map",
-    "409.2bc54dbc.chunk.css.map": "/React-Portfolio/static/css/409.2bc54dbc.chunk.css.map",
-    "409.021ea4e9.chunk.js.map": "/React-Portfolio/static/js/409.021ea4e9.chunk.js.map",
+    "main.f939f7e1.js.map": "/React-Portfolio/static/js/main.f939f7e1.js.map",
+    "357.0c79fb7d.chunk.css.map": "/React-Portfolio/static/css/357.0c79fb7d.chunk.css.map",
+    "357.49822182.chunk.js.map": "/React-Portfolio/static/js/357.49822182.chunk.js.map",
     "787.a2cb61a6.chunk.js.map": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js.map",
     "658.d4d3dce5.chunk.js.map": "/React-Portfolio/static/js/658.d4d3dce5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.77c213cf.css",
-    "static/js/main.dda5be9a.js"
+    "static/js/main.f939f7e1.js"
   ]
 }
